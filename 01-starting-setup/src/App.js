@@ -1,10 +1,13 @@
-import ExpenseItem from "./components/ExpenseItem";
+import Card from "./components/UI/Card";
+import Expenses from "./components/Expenses/Expenses";
+
 
 function App () {
   return (
-    <div>
-      <ExpenseItem />
-    </div>
+    <Card>
+      <h1>Expense Tracker</h1>
+      <Expenses />
+    </Card>
   );
 }
 
