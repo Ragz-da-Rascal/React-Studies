@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    color: white;
+    position: sticky;
+    border-bottom: solid;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    padding: 30px 20px;
+    background-color: #40005d;;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
