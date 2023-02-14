@@ -1,0 +1,18 @@
+.expenses-list {
+    list-style: none;
+    padding: 0;
+}
+
+.expenses-list__fallback {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    background-color: #40005d;
+    border-radius: 12px;
+    color: white;
+    -webkit-text-stroke-width: 0.15px;
+    -webkit-text-stroke-color: #ddb3f8;
+}
