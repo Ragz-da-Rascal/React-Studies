@@ -1,5 +1,6 @@
 import ExpenseItem from './ExpenseItem';
 import './ExpenseList.css'
+import ExpenseChart from './ExpensesChart';
 
 const ExpenseList = (props) => {
     let expenseList;
@@ -28,11 +29,21 @@ const ExpenseList = (props) => {
         return <h3>No Expenses</h3>;
     }
 
+    const expenseChartList = expenseList.map(el => {
+        return el.props;
+    })
+
     // Return list of expenses
     return (
-        <ul className='expense-list'> 
-            {expenseList}
-        </ul>
+        <div>
+            <ExpenseChart
+                expenses={expenseChartList}
+            />
+            <ul className='expense-list'>
+                
+                {expenseList}
+            </ul>
+        </div>
         )
 }
 

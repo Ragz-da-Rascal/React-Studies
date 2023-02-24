@@ -4,14 +4,16 @@ const Header = props => {
     return(
         <div className="header">
              <h1>Expense Tracker</h1>
-             <div className='navbar'>
-                <nav> 
-                    <a>Home</a> |
-                    <a> Data</a> | 
-                    <a> Feedback</a> |  
-                    <a> Logout</a>
+                <nav className='navbar'> 
+                    <a>Home</a>
+                    &emsp;|&emsp;
+                    <a>Data</a>
+                    &emsp;|&emsp;
+                    <a>Feedback</a>
+                    &emsp;|&emsp;
+                    <a>Logout</a>
+                    
                 </nav>
-             </div>
         </div>
     )
 }
